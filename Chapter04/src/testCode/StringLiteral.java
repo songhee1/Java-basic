@@ -21,7 +21,7 @@ public class StringLiteral {
         // 문자열 리터럴-intern호출
         String name = "lxxjn0";
         String nameNew = new String("lxxjn0");
-        String internName = nameNew.intern(); 
+        String internName = nameNew.intern();
 
         System.out.println(name.equals(internName));
         System.out.println(name == internName);
