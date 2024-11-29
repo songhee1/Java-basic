@@ -1,4 +1,4 @@
-package testCode.inheritance;
+package testCode.polymorphism;
 
 public class Parent {
 

@@ -5,7 +5,7 @@ public class InheritanceCasting {
     public static void main(String[] args) {
         InheritanceCasting inheritance = new InheritanceCasting();
 //        inheritance.objectCast(); 불가
-//        inheritance.objectCast2();
+//        inheritance.objectCast2(); 실제 객체면 가능
         inheritance.objectCastArray(); // child-parent-child
     }
 
