@@ -13,5 +13,7 @@ public class FinalReferenceType {
     public void checkDTO(){
         System.out.println(dto);
 //        dto = new MemberDTO(); 참조자료형 인스턴스변수도 final 선언, 재할당 불가
+        dto.name = "Sangmin"; // 멤버변수는 finalx, 변경가능
+        System.out.println(dto);
     }
 }
