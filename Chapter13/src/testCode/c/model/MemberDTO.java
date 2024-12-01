@@ -1,6 +1,5 @@
-package testCode.equals;
+package testCode.c.model;
 
-import c.inheritance.Student;
 import java.util.Objects;
 
 public class MemberDTO {
@@ -16,6 +15,9 @@ public class MemberDTO {
 
     public MemberDTO(String name) {
         this.name = name;
+    }
+
+    public MemberDTO() {
     }
 
     @Override

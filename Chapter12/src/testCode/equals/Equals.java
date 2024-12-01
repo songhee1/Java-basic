@@ -1,5 +1,8 @@
 package testCode.equals;
 
+import java.util.HashSet;
+import java.util.Set;
+
 public class Equals {
 
     public static void main(String[] args) {
@@ -34,8 +37,12 @@ public class Equals {
         MemberDTO obj1 = new MemberDTO("Sangmin");
         MemberDTO obj2 = new MemberDTO("Sangmin");
 
+        Set<MemberDTO> members = new HashSet<>();
+        members.add(obj1);
+        members.add(obj2);
+
         System.out.println(obj1.hashCode());
         System.out.println(obj2.hashCode());
-        // hashCode 오버라이딩시 같은 int값
+        System.out.println("set의 size : "+ members.size()); // hashCode 오버라이딩 x : 중복 데이터 저장됨
     }
 }
