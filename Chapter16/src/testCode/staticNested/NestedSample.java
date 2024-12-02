@@ -1,6 +1,6 @@
-package testCode.inner;
+package testCode.staticNested;
 
-import testCode.inner.OuterOfStatic.StaticNested;
+import testCode.staticNested.OuterOfStatic.StaticNested;
 
 public class NestedSample {
 
