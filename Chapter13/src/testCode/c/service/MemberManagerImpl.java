@@ -8,12 +8,10 @@ public class MemberManagerImpl implements MemberManager{
     public boolean addManager(MemberDTO member) {
         return false;
     }
-
     @Override
     public boolean removeMember(String name, String phone) {
         return false;
     }
-
     @Override
     public boolean updateMember(MemberDTO member) {
         return false;
