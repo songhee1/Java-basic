@@ -1,5 +1,6 @@
 package testCode;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map.Entry;
 import java.util.Set;
@@ -7,6 +8,7 @@ import java.util.Set;
 public class MapSample {
 
     public static void main(String[] args) {
+        ArrayList<String> list = new ArrayList<>(10);
         HashMap<String, String> map = new HashMap<>();
         map.put("A", "a");
         map.put("B", "b");
