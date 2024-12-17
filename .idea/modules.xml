@@ -25,6 +25,9 @@
       <module fileurl="file://$PROJECT_DIR$/Chapter25/Chapter25.iml" filepath="$PROJECT_DIR$/Chapter25/Chapter25.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter26/Chapter26.iml" filepath="$PROJECT_DIR$/Chapter26/Chapter26.iml" />
       <module fileurl="file://$PROJECT_DIR$/Chapter28/Chapter28.iml" filepath="$PROJECT_DIR$/Chapter28/Chapter28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChapterNEW/ChapterNEW.iml" filepath="$PROJECT_DIR$/ChapterNEW/ChapterNEW.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChapterNEW.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ChapterNEW.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ChapterNEW.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ChapterNEW.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java-basic.iml" filepath="$PROJECT_DIR$/.idea/Java-basic.iml" />
     </modules>
   </component>
