@@ -7,25 +7,25 @@ import java.util.List;
 public class ThreadSample {
     private static int value = 0;
     public static void main(String[] args) throws InterruptedException {
-        List<Thread> pool = new ArrayList<>();
-        for(int i=0;i<10;i++){
-            Thread t3 = new Thread(() -> {
-                for(int j=0;j<1000000;j++){
-                    synchronized (ThreadSample.class){
-                        value++;
-                    }
-                }
-            });
+        Thread r1 = new MyThread("*");
+        Thread r2 = new MyThread("!");
+        Thread r3 = new MyThread("&");
 
-            t3.start();
-            pool.add(t3);
-        }
+        r1.start();
+        r2.start();
+        r3.start();
 
-        for(Thread t3 : pool){
-            t3.join();
-        }
-
-        System.out.println("value = "+value);
+        System.out.println("종료");
     }
 }
+class MyThread extends Thread{
 
+    public MyThread(String name) {
+        super(name);
+    }
+
+    @Override
+    public void run(){
+        System.out.println(this.getName());
+    }
+}
